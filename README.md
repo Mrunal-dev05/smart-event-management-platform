@@ -1,0 +1,3 @@
+# smart-event-management-platform
+
+
