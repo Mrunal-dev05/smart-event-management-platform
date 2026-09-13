@@ -146,25 +146,25 @@ Building EventSphere provided hands-on exploration of:
 
 ## 📸 Screenshots
 
-### 1. EventSphere Overview
+### 🖥️ Platform Overview
 
-![EventSphere Overview](screenshots/1img.png)
+![EventSphere Screenshot 1](screenshots/1%20img.jpeg)
 
-### 2. Participant Dashboard
+### 👤 Participant Experience
 
-![Participant Dashboard](screenshots/2img.png)
+![EventSphere Screenshot 2](screenshots/2%20img.jpeg)
 
-### 3. Judge Dashboard
+### ⚖️ Judging & Evaluation
 
-![Judge Dashboard](screenshots/3img.png)
+![EventSphere Screenshot 3](screenshots/3%20img.jpeg)
 
-### 4. Organizer Dashboard
+### 🧑‍💼 Organizer Dashboard
 
-![Organizer Dashboard](screenshots/4img.png)
+![EventSphere Screenshot 4](screenshots/4%20img.jpeg)
 
-### 5. Event Management
+### 🏆 Event Management & Results
 
-![Event Management](screenshots/5img.png)
+![EventSphere Screenshot 5](screenshots/5%20img.jpeg)
 
 ## 🔮 Future Improvements
 
