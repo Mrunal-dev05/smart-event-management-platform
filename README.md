@@ -144,18 +144,27 @@ Building EventSphere provided hands-on exploration of:
 
 ## 📸 Screenshots
 
-> Add screenshots of the main dashboards and workflows here.
+## 📸 Screenshots
 
-Suggested screenshots:
+### 1. EventSphere Overview
 
-- Participant dashboard
-- Judge dashboard
-- Organizer dashboard
-- Team matching
-- Submission page
-- Leaderboard
+![EventSphere Overview](screenshots/1img.png)
 
----
+### 2. Participant Dashboard
+
+![Participant Dashboard](screenshots/2img.png)
+
+### 3. Judge Dashboard
+
+![Judge Dashboard](screenshots/3img.png)
+
+### 4. Organizer Dashboard
+
+![Organizer Dashboard](screenshots/4img.png)
+
+### 5. Event Management
+
+![Event Management](screenshots/5img.png)
 
 ## 🔮 Future Improvements
 
