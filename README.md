@@ -1,11 +1,11 @@
 # 🌐 EventSphere — Smart Event Management Platform
 
 <p align="center">
-  <strong>A unified, role-based platform for managing modern events from registration to analytics.</strong>
+  <strong>A modern, role-based platform for managing the complete event lifecycle — from registration and check-in to judging, results, and analytics.</strong>
 </p>
 
 <p align="center">
-  <a href="https://eventsphere-platform-wz3j.bolt.host"><img src="https://img.shields.io/badge/🚀_Live_Demo-EventSphere-0A7CFF?style=for-the-badge" alt="Live Demo"></a>
+  <a href="https://eventsphere-platform-wz3j.bolt.host"><img src="https://img.shields.io/badge/🚀_Live_Demo-Open_EventSphere-0A7CFF?style=for-the-badge" alt="Live Demo"></a>
   <a href="https://github.com/Mrunal-dev05/smart-event-management-platform"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository"></a>
 </p>
 
@@ -15,32 +15,44 @@
   <img src="https://img.shields.io/badge/Vite-5.4-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
   <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/Supabase-2.57-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/ESLint-9.x-4B32C3?style=flat-square&logo=eslint&logoColor=white" alt="ESLint">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Project Status">
+  <img src="https://img.shields.io/badge/License-Demo%20Project-lightgrey?style=flat-square" alt="License">
 </p>
 
 ---
 
 ## 📌 Overview
 
-**EventSphere** is a smart event management platform designed to bring the complete event lifecycle into one connected system. It supports **participants, judges, and organizers** with role-specific workflows for registration, check-in, team formation, submissions, judging, leaderboards, and analytics.
+**EventSphere** is a smart event management platform that brings the complete event lifecycle into one connected application. It provides dedicated workflows for **participants, judges, and organizers**, covering registration, QR-based check-in, team formation, announcements, project submissions, judging, leaderboards, and analytics.
 
-The platform is designed for **hackathons, tech fests, conferences, competitions, workshops, and other large-scale events** where multiple disconnected tools can make coordination difficult.
+The platform is designed for **hackathons, tech fests, conferences, competitions, workshops, and other large-scale events** where managing multiple workflows through disconnected tools can become difficult.
 
-Built during **PromptWars 2026**, organized by **AbhiyantriX** in collaboration with **Hack2Skill** and **Google Developer Groups (GDG)**.
+> Built during **PromptWars 2026**, organized by **AbhiyantriX** in collaboration with **Hack2Skill** and **Google Developer Groups (GDG)**.
 
 ---
 
 ## 🚀 Live Demo
 
-**[Open EventSphere →](https://eventsphere-platform-wz3j.bolt.host)**
+<p align="center">
+  <a href="https://eventsphere-platform-wz3j.bolt.host">
+    <img src="https://img.shields.io/badge/🌐_OPEN_LIVE_DEMO-EventSphere-0A7CFF?style=for-the-badge" alt="Open Live Demo">
+  </a>
+</p>
+
+**Live URL:** https://eventsphere-platform-wz3j.bolt.host
 
 ---
 
 ## 🎯 Problem Statement
 
-Large-scale events often rely on separate tools for:
+Large-scale events commonly depend on separate tools for:
 
-- Registration and attendance
-- QR-based check-in
+- Registration and participant management
+- Attendance and check-in
 - Team formation
 - Announcements
 - Project submissions
@@ -48,11 +60,11 @@ Large-scale events often rely on separate tools for:
 - Leaderboards
 - Event analytics
 
-This can create coordination overhead and fragment the experience for participants, judges, and organizers.
+Using disconnected systems can increase coordination effort and make the overall experience less organized for participants, judges, and organizers.
 
 ### 💡 Solution
 
-EventSphere connects these workflows through a **single role-based platform**, allowing each stakeholder to manage the part of the event lifecycle relevant to them while keeping the overall process connected.
+EventSphere provides a **single role-based platform** that connects these workflows into one event lifecycle, allowing every stakeholder to access the tools relevant to their role.
 
 ---
 
@@ -73,24 +85,38 @@ EventSphere connects these workflows through a **single role-based platform**, a
 - 📊 Evaluate projects using structured criteria
 - 🏆 Assign scores
 - 💬 Provide feedback
-- 🔎 Support transparent judging workflows
+- 🔎 Support an organized judging workflow
 
 ### 🧑‍💼 Organizer Portal
 
 - 👥 Manage participants and registrations
 - 📋 Monitor attendance
 - 🤝 Manage teams
-- 📦 Track submissions
+- 📦 Track project submissions
 - ⚖️ Manage judging workflows
-- 📊 View leaderboards and analytics
+- 🏆 View results and leaderboards
+- 📊 Monitor event analytics
 
 ---
 
 ## 🔄 Event Lifecycle
 
 ```text
-Registration → Check-in → Team Formation → Announcements
-       → Project Submission → Judging → Leaderboard → Analytics
+Registration
+     ↓
+Check-in
+     ↓
+Team Formation
+     ↓
+Announcements
+     ↓
+Project Submission
+     ↓
+Judging & Scoring
+     ↓
+Leaderboard & Results
+     ↓
+Analytics
 ```
 
 ---
@@ -110,6 +136,11 @@ Registration → Check-in → Team Formation → Announcements
       │ Find Teams  │    │ Feedback │    │ Submissions   │
       │ Submit      │    └──────────┘    │ Analytics     │
       └─────────────┘                    └───────────────┘
+                              │
+                              ↓
+                    ┌──────────────────┐
+                    │ Supabase Backend │
+                    └──────────────────┘
 ```
 
 ---
@@ -118,9 +149,9 @@ Registration → Check-in → Team Formation → Announcements
 
 | Technology | Purpose |
 |---|---|
-| **React** | Component-based frontend development |
+| **React 18** | Component-based frontend development |
 | **TypeScript** | Type-safe application development |
-| **Vite** | Development server and production build tooling |
+| **Vite** | Fast development server and build tooling |
 | **Tailwind CSS** | Responsive UI styling |
 | **Supabase** | Backend services and data integration |
 | **Lucide React** | Interface icons |
@@ -149,32 +180,43 @@ smart-event-management-platform/
 
 ---
 
-## 📸 Platform Preview
+## 📸 Platform Showcase
 
 <p align="center">
-  <img src="screenshots/1%20img.jpeg" width="31%" alt="EventSphere platform overview">
-  <img src="screenshots/2%20img.jpeg" width="31%" alt="EventSphere participant experience">
-  <img src="screenshots/3%20img.jpeg" width="31%" alt="EventSphere judging and evaluation">
+  <img src="screenshots/1%20img.jpeg" width="45%" alt="EventSphere platform overview">
+  <img src="screenshots/2%20img.jpeg" width="45%" alt="EventSphere participant experience">
 </p>
 
 <p align="center">
-  <b>Platform Overview</b> &nbsp;&nbsp;&nbsp; <b>Participant Experience</b> &nbsp;&nbsp;&nbsp; <b>Judging & Evaluation</b>
+  <strong>Platform Overview</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Participant Experience</strong>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="screenshots/3%20img.jpeg" width="45%" alt="EventSphere judging and evaluation">
+  <img src="screenshots/4%20img.jpeg" width="45%" alt="EventSphere organizer dashboard">
 </p>
 
 <p align="center">
-  <img src="screenshots/4%20img.jpeg" width="31%" alt="EventSphere organizer dashboard">
-  <img src="screenshots/5%20img.jpeg" width="31%" alt="EventSphere event management and results">
+  <strong>Judging & Evaluation</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Organizer Dashboard</strong>
 </p>
 
+<br>
+
 <p align="center">
-  <b>Organizer Dashboard</b> &nbsp;&nbsp;&nbsp; <b>Event Management & Results</b>
+  <img src="screenshots/5%20img.jpeg" width="55%" alt="EventSphere event management and results">
 </p>
+
+<p align="center"><strong>Event Management & Results</strong></p>
 
 ---
 
 ## ⚙️ Getting Started
 
 ### Prerequisites
+
+Make sure the following are installed:
 
 - [Node.js](https://nodejs.org/)
 - npm
@@ -199,7 +241,7 @@ npm install
 npm run dev
 ```
 
-Vite will start the application in development mode and provide a local URL in the terminal.
+Vite will provide a local development URL in the terminal.
 
 ### 4. Production Build
 
@@ -213,7 +255,7 @@ npm run build
 npm run preview
 ```
 
-### 6. Code Quality Checks
+### 6. Run Code Quality Checks
 
 ```bash
 npm run lint
@@ -273,20 +315,31 @@ Organized by **AbhiyantriX** in collaboration with **Hack2Skill** and **Google D
 
 ---
 
-## 👩‍💻 Developer
+## 👨‍💻 Author
 
-**Mrunal Pimpale**  
-Computer Engineering Student | Software Development & Algorithms
+### **Mrunal Pimpale**
 
-🔗 **GitHub:** [Mrunal-dev05](https://github.com/Mrunal-dev05)
+**Computer Engineering Student | Software Development & Algorithms**
+
+<p>
+  <a href="https://github.com/Mrunal-dev05">
+    <img src="https://img.shields.io/badge/GitHub-Mrunal--dev05-181717?style=for-the-badge&logo=github" alt="GitHub Profile">
+  </a>
+</p>
+
+> Passionate about building practical software solutions, exploring modern technologies, and developing projects that solve real-world problems.
 
 ---
 
 ## 📄 License
 
-This project is developed for learning, experimentation, and demonstration purposes.
+This project is developed for **learning, experimentation, and demonstration purposes**.
 
 ---
+
+<p align="center">
+  <strong>EventSphere — Bringing the complete event lifecycle into one connected platform.</strong>
+</p>
 
 <p align="center">
   ⭐ If you found this project interesting, consider giving the repository a star!
